@@ -1,4 +1,3 @@
-# UNITY-cs-dms231-fa16
-game design class
+#DMS 231 Game and Animation Workshop
 
-SUNY Buffalo Game Studies
+SUNY Buffalo Game Studies / Media Study
