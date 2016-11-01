@@ -2,13 +2,8 @@
 using System.Collections;
 
 public class lookAt : MonoBehaviour {
-	public Transform target;
-	// Use this for initialization
-	void Start () {
+	public Transform target; //Assign the target in the inspector
 	
-	}
-	
-	// Update is called once per frame
 	void Update () {
 		transform.LookAt (target);
 	}
