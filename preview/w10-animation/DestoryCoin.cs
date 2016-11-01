@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 //Destroy : https://unity3d.com/learn/tutorials/topics/scripting/destroy
+//Add this to the coin
 public class DestoryCoin : MonoBehaviour {
 
 	// Use this for initialization
@@ -17,7 +18,6 @@ public class DestoryCoin : MonoBehaviour {
 	}
 
 	void OnCollisionEnter(Collision other){
-		Debug.Log ("collide");
 		Destroy (gameObject);
 	}
 }
