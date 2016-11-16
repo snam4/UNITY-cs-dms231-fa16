@@ -1,5 +1,4 @@
-﻿//https://www.youtube.com/watch?v=Myl4snsIfhE
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class bulletShooting : MonoBehaviour {
@@ -13,7 +12,7 @@ public class bulletShooting : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(Input.GetKeyDown("space")){
-			Instantiate(bullet,transform.position, transform.rotation);
+			Instantiate(bullet,transform.position,transform.rotation);
 		}
 	}
 }
