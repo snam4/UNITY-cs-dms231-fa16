@@ -16,7 +16,8 @@ public class cameraDistanceWithSlider : MonoBehaviour {
 	//public void SpeedControl(float newSp){
 	//	sp = newSp*30f;
 	//}
-	//Camera 
+	
+	//Camera Distance Control
 	void Update () {
 		transform.Translate(Vector3.up*sp, Space.World);
 	}
